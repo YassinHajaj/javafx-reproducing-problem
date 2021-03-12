@@ -6,9 +6,9 @@ import javafx.scene.layout.VBox;
 public class ParentView extends VBox {
 
     @FXML
-    public ChildView child;
+    public ChildView childController;
 
     public void init() {
-        System.out.println("childController.getTextFieldValue() = " + child.getTextFieldValue());
+        System.out.println("childController.getTextFieldValue() = " + childController.getTextFieldValue());
     }
 }
