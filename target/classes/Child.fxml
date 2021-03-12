@@ -1,10 +1,10 @@
 <?import javafx.scene.control.TextField?>
-<?import main.ChildController?>
-<ChildController xmlns="http://javafx.com/javafx"
-                 xmlns:fx="http://javafx.com/fxml"
-                 fx:controller="main.ChildController"
-                 prefHeight="400.0" prefWidth="600.0">
+<?import main.ChildView?>
+<ChildView xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="main.ChildView"
+           prefHeight="400.0" prefWidth="600.0">
     <children>
-        <TextField fx:id="textFieldController" text="Bla"/>
+        <TextField fx:id="textField" text="Bla"/>
     </children>
-</ChildController>
+</ChildView>

@@ -17,7 +17,7 @@ public class Main extends Application {
         Parent parent = fxmlLoader.load();
 
         stage.setScene(new Scene(parent));
-        ((ParentController) fxmlLoader.getController()).init();
+        ((ParentView) fxmlLoader.getController()).init();
         stage.show();
     }
 }
